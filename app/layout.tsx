@@ -25,11 +25,11 @@ const disableIndex = getEnv("NEXT_PUBLIC_DisableIndex");
 
 export const metadata: Metadata = {
   manifest: "/manifest.json",
-  title: customTitle || "NezhaDash",
+  title: customTitle || "L-NZ",
   description: customDescription || "A dashboard for nezha",
   appleWebApp: {
     capable: true,
-    title: customTitle || "NezhaDash",
+    title: customTitle || "L-NZ",
     statusBarStyle: "black-translucent",
   },
   robots: {
