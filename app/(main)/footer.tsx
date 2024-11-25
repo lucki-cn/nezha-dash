@@ -19,7 +19,6 @@ export default function Footer() {
         </p>
         <section className="mt-1 flex items-center gap-2 text-[13px] font-light tracking-tight text-neutral-600/50 dark:text-neutral-300/50">
           {t("section_607-869_2020")}
-          <a href={"https://blog.iotfen.com/"}>{t("a_800-850_Hamster1963")}</a>
         </section>
       </section>
     </footer>
