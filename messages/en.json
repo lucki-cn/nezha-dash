@@ -18,7 +18,11 @@
     "STG": "STG",
     "Upload": "Upload",
     "Download": "Download",
-    "Offline": "Offline"
+    "Offline": "Offline",
+    "Uptime": "Uptime",
+    "TotalUpload": "Upload",
+    "TotalDownload": "Download",
+    "Region": "Region"
   },
   "TabSwitch": {
     "Detail": "Detail",
@@ -39,7 +43,11 @@
     "Network": "Network",
     "Load": "Load",
     "Online": "Online",
-    "Offline": "Offline"
+    "Offline": "Offline",
+    "Uptime": "Uptime",
+    "Upload": "Upload",
+    "Download": "Download",
+    "Region": "Region"
   },
   "NetworkChartClient": {
     "avg_delay": "Latency",
@@ -63,7 +71,8 @@
     "System": "System",
     "CPU": "CPU",
     "Upload": "Upload",
-    "Download": "Download"
+    "Download": "Download",
+    "Load": "Load"
   },
   "ServerDetailChartClient": {
     "chart_fetch_error_message": "Please check your environment variables and review the server console",
