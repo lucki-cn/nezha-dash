@@ -9,6 +9,9 @@ export default function Footer() {
       <section className="flex flex-col">
         <p className="mt-3 flex gap-1 text-[13px] font-light tracking-tight text-neutral-600/50 dark:text-neutral-300/50">
           {t("p_146-598_Findthecodeon")}{" "}
+          <p
+            className="font-normal"
+          >
             {version}
           </p>
         </p>
