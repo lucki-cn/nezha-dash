@@ -1,13 +1,15 @@
 {
   "name": "nezha-dash",
-  "version": "1.9.1",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3040",
     "start": "node .next/standalone/server.js",
-    "lint": "next lint",
-    "lint:fix": "next lint --fix",
-    "format": "prettier --write .",
+    "lint": "biome lint",
+    "lint:fix": "biome lint --fix",
+    "format": "biome format --write .",
+    "check": "biome check",
+    "check:fix": "biome check --fix",
     "build": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
     "build-dev": "next build",
     "start-dev": "next start"
@@ -60,18 +62,16 @@
     "typescript-eslint": "^8.18.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@next/bundle-analyzer": "^15.1.2",
     "@tailwindcss/postcss": "^4.0.0-beta.8",
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
-    "eslint": "^9.17.0",
     "eslint-config-next": "^15.1.2",
     "eslint-plugin-turbo": "^2.3.3",
     "eslint-plugin-unused-imports": "^4.1.4",
     "postcss": "^8.4.49",
-    "prettier": "^3.4.2",
-    "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^4.0.0-beta.8",
     "typescript": "^5.7.2",
     "vercel": "^39.2.2"
